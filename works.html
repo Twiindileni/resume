@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tomas Kiliopas | Works</title>
+  <link rel="stylesheet" href="resume.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <!-- Animated IT Background -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Top Navigation Bar -->
+  <header class="main-header">
+    <div class="brand">
+      <span class="brand-grey">Tomas</span> <span class="brand-accent">Kiliopas</span>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home <span class="nav-caret">&#9660;</span></a></li>
+        <li><a href="resume.html">Resume <span class="nav-caret">&#9660;</span></a></li>
+        <li class="active"><a href="works.html">Works <span class="nav-caret">&#9660;</span></a></li>
+        <li><a href="contact.html">Contact <span class="nav-caret">&#9660;</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="resume-container">
+    <section class="resume-section">
+      <h3>Portfolio / Works</h3>
+      <div class="works-list">
+        <div class="work-card">
+          <img src="Instalacion-ProxmoxVE.jpg" alt="Proxmox Datacenter Lab" class="work-img">
+          <h4>Proxmox Datacenter Lab Setup</h4>
+          <p><b>Description:</b><br>
+            Designed and implemented a fully functional Proxmox Virtual Environment (PVE) lab to simulate enterprise-grade datacenter operations. The setup was tailored for high availability, scalability, and performance optimization, with hands-on deployment of key virtualization and storage technologies.
+          </p>
+          <p><b>Technologies Used:</b><br>
+            Proxmox VE, CEPH Storage Cluster, LVM, ZFS, Backup & Restore (PBS), Debian Linux, QEMU/KVM, OpenVSwitch, Firewall, SSH, Monitoring (Netdata/Prometheus), and Ansible.
+          </p>
+          <p><b>Role & Responsibilities:</b></p>
+          <ul>
+            <li><b>Virtualization:</b> Configured multiple Proxmox nodes in a cluster setup for seamless resource sharing and virtual machine (VM) migration using QEMU/KVM and containers (LXC).</li>
+            <li><b>CEPH Storage:</b> Set up a 3-node CEPH storage cluster for highly available, distributed, and fault-tolerant block storage. Ensured replication, data redundancy, and monitored IOPS and utilization metrics.</li>
+            <li><b>Networking:</b> Implemented bonded NICs and VLAN tagging using OpenVSwitch for redundant network paths and optimized VM traffic.</li>
+            <li><b>Backups & Restore:</b> Integrated Proxmox Backup Server (PBS) for scheduled, encrypted, and deduplicated backups. Configured automated backup rotation and fast recovery for critical workloads.</li>
+            <li><b>Automation & Scripting:</b> Wrote shell scripts and used Ansible playbooks to automate VM deployments, system updates, and configuration backups across all nodes.</li>
+            <li><b>Security:</b> Hardened access with firewall rules, SSH key authentication, and Proxmox's built-in two-factor authentication.</li>
+            <li><b>Monitoring & Alerts:</b> Deployed Netdata and Prometheus/Grafana for real-time system health and performance monitoring. Setup custom alerts for node failures, storage thresholds, and backup statuses.</li>
+          </ul>
+        </div>
+        <div class="work-card">
+          <img src="babies.png" alt="Babies & Todd's Website" class="work-img">
+          <h4>Babies & Todd's Website <a href="#" style="color:var(--accent2);text-decoration:underline;font-size:1rem;">🔗 Visit Website</a></h4>
+          <p><b>Description:</b><br>
+            Designed and developed a vibrant, user-friendly, and fully responsive website for Babies & Todd's Day Care, a premier early childhood education center. The site highlights the school's values, programs, and admissions in a visually appealing and interactive way tailored to parents and guardians.
+          </p>
+          <p><b>Technologies Used:</b><br>
+            HTML5, CSS3, JavaScript, Responsive Web Design, Media Queries, Animated Elements, SEO optimization
+          </p>
+          <p><b>Role & Responsibilities:</b></p>
+          <ul>
+            <li><b>UI/UX Design:</b> Crafted a playful yet professional layout with animated components, soft color palettes, and engaging icons to appeal to parents and represent the day care's identity.</li>
+            <li><b>Responsive Design:</b> Built mobile-first layouts with smooth transitions and adaptive content for all screen sizes.</li>
+            <li><b>Interactive Features:</b> Integrated navigation with animated scrolls, clickable program sections (Toddlers, Infants, Preschool), and a dynamic admission form.</li>
+            <li><b>Content Management:</b> Structured pages for About Us, Our Programs, Admissions, Contact Us, and Principal's Dashboard for internal use.</li>
+            <li><b>Performance Optimization:</b> Compressed assets and applied best practices for faster load times and enhanced user experience.</li>
+            <li><b>Ongoing Maintenance:</b> Provided training and documentation for staff to manage content updates independently.</li>
+          </ul>
+        </div>
+        <div class="work-card">
+          <img src="namapps.png" alt="NamApps Website" class="work-img">
+          <h4>NamApps Website <a href="#" style="color:var(--accent2);text-decoration:underline;font-size:1rem;">🔗 Visit Website</a></h4>
+          <p><b>Description:</b><br>
+            Developed a clean, fast, and modern website for NamApps, a platform showcasing software and mobile applications built for the Namibian market. The site is structured to support tech product launches, offer downloads, and serve as a digital catalog of apps and services developed under PurposeTech.
+          </p>
+          <p><b>Technologies Used:</b><br>
+            HTML5, CSS3, JavaScript, PHP (basic), Responsive Web Design, Product UI Design, SEO, Hosting & Domain Setup
+          </p>
+          <p><b>Role & Responsibilities:</b></p>
+          <ul>
+            <li><b>Web Design & Branding:</b> Created a minimalistic and elegant layout to reflect the innovative nature of NamApps, while ensuring brand consistency across all pages.</li>
+            <li><b>Product Catalog:</b> Structured product sections for apps, tools, and services — each with detailed descriptions, icons, and calls-to-action.</li>
+            <li><b>Mobile Optimization:</b> Applied responsive techniques and optimized layout for smartphone-first browsing, crucial for app-related audiences.</li>
+            <li><b>Performance & Speed:</b> Implemented lightweight code and image optimization techniques to ensure fast load times.</li>
+            <li><b>Domain & Hosting:</b> Handled domain setup, email configurations, and live deployment on a secure hosting environment.</li>
+            <li><b>Ongoing Support:</b> Offered periodic updates, UI refinements, and scaling options for future apps or ecommerce integration.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Right Sidebar Socials -->
+  <aside class="sidebar-vertical">
+    <a href="https://www.linkedin.com/in/kiliopas-tomas-0a31471a7/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="mailto:Cleothomas8@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html> 
