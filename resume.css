@@ -541,4 +541,15 @@ body::before {
   .contact-map iframe {
     height: 80px;
   }
+}
+
+.contact-gif-bg {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  background: url('3rNn.gif') center center/cover no-repeat;
+  opacity: 0.22;
+  pointer-events: none;
 } 
